@@ -38,7 +38,9 @@ A base contém 14 vendas simuladas, nas categorias Eletrônicos, Roupas e Livros
 
 Janeiro tem o maior valor observado: R$ 1.850,00. Nenhum dos 14 registros possui campos ausentes.
 
-Os gráficos `vendas_por_categoria.png` e `vendas_por_mes.png` serão criados na pasta `resultados` ao executar o programa.
+![Vendas por categoria](resultados/vendas_por_categoria.png)
+
+![Vendas por mês](resultados/vendas_por_mes.png)
 
 ## Limitações
 
@@ -65,4 +67,4 @@ Na preparação para o GitHub, com auxílio de IA, foram feitas adaptações: or
 
 ## Verificação da recuperação
 
-Os 14 registros foram comparados com o código extraído do PDF. A criação da tabela, a consulta SQLite e os totais foram conferidos com pandas. A geração dos gráficos ainda precisa ser validada: Matplotlib e Seaborn não estavam disponíveis no ambiente de recuperação, e a instalação não foi possível por falta de acesso à rede.
+Os 14 registros foram comparados com o código extraído do PDF. A criação da tabela, a consulta SQLite e os totais foram conferidos com pandas. O programa foi executado com sucesso em Python 3.12, com geração dos três CSVs e dos dois gráficos. Os resultados confirmam 14 vendas, total de R$ 8.800,00 e ausência de valores nulos. Os dois gráficos foram inspecionados visualmente.
